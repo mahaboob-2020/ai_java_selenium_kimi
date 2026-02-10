@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SalesforceAllTestsSuite" parallel="false">
+    <listeners>
+        <listener class-name="com.salesforce.listeners.ExtentReportListener"/>
+    </listeners>
+    <test name="InvalidLoginTest">
+        <classes>
+            <class name="com.salesforce.tests.LoginInvalidTest"/>
+        </classes>
+    </test>
+    <test name="ValidLoginTest">
+        <classes>
+            <class name="com.salesforce.tests.LoginValidTest"/>
+        </classes>
+    </test>
+</suite>

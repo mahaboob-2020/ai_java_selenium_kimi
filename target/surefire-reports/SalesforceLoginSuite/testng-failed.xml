@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SalesforceLoginSuite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="com.salesforce.listeners.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="5" name="ValidLoginTest(failed)" verbose="0">
+    <classes>
+      <class name="com.salesforce.tests.LoginValidTest">
+        <methods>
+          <include name="testValidLoginWithoutRememberMe"/>
+          <include name="testValidLoginWithRememberMe"/>
+          <include name="setUp"/>
+          <include name="beforeTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.salesforce.tests.LoginValidTest -->
+    </classes>
+  </test> <!-- ValidLoginTest(failed) -->
+</suite> <!-- Failed suite [SalesforceLoginSuite] -->

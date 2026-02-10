@@ -1,0 +1,6 @@
+com\salesforce\utils\ConfigReader.class
+com\salesforce\listeners\ExtentReportListener.class
+com\salesforce\pages\LoginPage.class
+com\salesforce\utils\ScreenshotUtil.class
+com\salesforce\base\BaseTest.class
+com\salesforce\utils\ExtentReportManager.class

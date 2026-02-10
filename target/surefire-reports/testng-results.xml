@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="7" failed="0" skipped="2">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-10T22:45:32 IST" name="SalesforceLoginSuite" finished-at="2026-02-10T22:46:08 IST" duration-ms="35259">
+    <groups>
+    </groups>
+    <test started-at="2026-02-10T22:45:32 IST" name="InvalidLoginTest" finished-at="2026-02-10T22:46:02 IST" duration-ms="29963">
+      <class name="com.salesforce.tests.LoginInvalidTest">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.salesforce.tests.LoginInvalidTest@13518f37]" started-at="2026-02-10T22:45:33 IST" name="beforeTest" finished-at="2026-02-10T22:45:33 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:com.salesforce.tests.LoginInvalidTest@13518f37]" started-at="2026-02-10T22:45:33 IST" name="setUp" finished-at="2026-02-10T22:45:37 IST" duration-ms="4897" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=LoginInvalidTest.testInvalidUsernameAndPassword()[pri:1, instance:com.salesforce.tests.LoginInvalidTest@13518f37] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInvalidUsernameAndPassword()[pri:1, instance:com.salesforce.tests.LoginInvalidTest@13518f37]" started-at="2026-02-10T22:45:37 IST" name="testInvalidUsernameAndPassword" finished-at="2026-02-10T22:45:39 IST" duration-ms="1654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidUsernameAndPassword -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.salesforce.tests.LoginInvalidTest@13518f37]" started-at="2026-02-10T22:45:39 IST" name="tearDown" finished-at="2026-02-10T22:45:39 IST" duration-ms="201" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testInvalidUsernameAndPassword status=SUCCESS method=LoginInvalidTest.testInvalidUsernameAndPassword()[pri:1, instance:com.salesforce.tests.LoginInvalidTest@13518f37] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:com.salesforce.tests.LoginInvalidTest@13518f37]" started-at="2026-02-10T22:45:39 IST" name="setUp" finished-at="2026-02-10T22:45:42 IST" duration-ms="2179" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=LoginInvalidTest.testEmptyUsername()[pri:2, instance:com.salesforce.tests.LoginInvalidTest@13518f37] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testEmptyUsername()[pri:2, instance:com.salesforce.tests.LoginInvalidTest@13518f37]" started-at="2026-02-10T22:45:42 IST" name="testEmptyUsername" finished-at="2026-02-10T22:45:43 IST" duration-ms="1254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmptyUsername -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.salesforce.tests.LoginInvalidTest@13518f37]" started-at="2026-02-10T22:45:43 IST" name="tearDown" finished-at="2026-02-10T22:45:43 IST" duration-ms="205" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testEmptyUsername status=SUCCESS method=LoginInvalidTest.testEmptyUsername()[pri:2, instance:com.salesforce.tests.LoginInvalidTest@13518f37] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:com.salesforce.tests.LoginInvalidTest@13518f37]" started-at="2026-02-10T22:45:43 IST" name="setUp" finished-at="2026-02-10T22:45:45 IST" duration-ms="2229" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=LoginInvalidTest.testEmptyPassword()[pri:3, instance:com.salesforce.tests.LoginInvalidTest@13518f37] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testEmptyPassword()[pri:3, instance:com.salesforce.tests.LoginInvalidTest@13518f37]" started-at="2026-02-10T22:45:45 IST" name="testEmptyPassword" finished-at="2026-02-10T22:45:48 IST" duration-ms="2869" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmptyPassword -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.salesforce.tests.LoginInvalidTest@13518f37]" started-at="2026-02-10T22:45:48 IST" name="tearDown" finished-at="2026-02-10T22:45:49 IST" duration-ms="175" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testEmptyPassword status=SUCCESS method=LoginInvalidTest.testEmptyPassword()[pri:3, instance:com.salesforce.tests.LoginInvalidTest@13518f37] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:com.salesforce.tests.LoginInvalidTest@13518f37]" started-at="2026-02-10T22:45:49 IST" name="setUp" finished-at="2026-02-10T22:45:51 IST" duration-ms="1986" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=LoginInvalidTest.testEmptyUsernameAndPassword()[pri:4, instance:com.salesforce.tests.LoginInvalidTest@13518f37] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testEmptyUsernameAndPassword()[pri:4, instance:com.salesforce.tests.LoginInvalidTest@13518f37]" started-at="2026-02-10T22:45:51 IST" name="testEmptyUsernameAndPassword" finished-at="2026-02-10T22:45:52 IST" duration-ms="1561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmptyUsernameAndPassword -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.salesforce.tests.LoginInvalidTest@13518f37]" started-at="2026-02-10T22:45:52 IST" name="tearDown" finished-at="2026-02-10T22:45:53 IST" duration-ms="222" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testEmptyUsernameAndPassword status=SUCCESS method=LoginInvalidTest.testEmptyUsernameAndPassword()[pri:4, instance:com.salesforce.tests.LoginInvalidTest@13518f37] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:com.salesforce.tests.LoginInvalidTest@13518f37]" started-at="2026-02-10T22:45:53 IST" name="setUp" finished-at="2026-02-10T22:45:54 IST" duration-ms="1332" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=LoginInvalidTest.testInvalidEmailFormat()[pri:5, instance:com.salesforce.tests.LoginInvalidTest@13518f37] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInvalidEmailFormat()[pri:5, instance:com.salesforce.tests.LoginInvalidTest@13518f37]" started-at="2026-02-10T22:45:54 IST" name="testInvalidEmailFormat" finished-at="2026-02-10T22:45:56 IST" duration-ms="2243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidEmailFormat -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.salesforce.tests.LoginInvalidTest@13518f37]" started-at="2026-02-10T22:45:56 IST" name="tearDown" finished-at="2026-02-10T22:45:56 IST" duration-ms="157" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testInvalidEmailFormat status=SUCCESS method=LoginInvalidTest.testInvalidEmailFormat()[pri:5, instance:com.salesforce.tests.LoginInvalidTest@13518f37] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:com.salesforce.tests.LoginInvalidTest@13518f37]" started-at="2026-02-10T22:45:56 IST" name="setUp" finished-at="2026-02-10T22:45:58 IST" duration-ms="2005" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=LoginInvalidTest.testLoginPageUIElements()[pri:6, instance:com.salesforce.tests.LoginInvalidTest@13518f37] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginPageUIElements()[pri:6, instance:com.salesforce.tests.LoginInvalidTest@13518f37]" started-at="2026-02-10T22:45:58 IST" name="testLoginPageUIElements" finished-at="2026-02-10T22:45:59 IST" duration-ms="210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPageUIElements -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.salesforce.tests.LoginInvalidTest@13518f37]" started-at="2026-02-10T22:45:59 IST" name="tearDown" finished-at="2026-02-10T22:45:59 IST" duration-ms="200" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginPageUIElements status=SUCCESS method=LoginInvalidTest.testLoginPageUIElements()[pri:6, instance:com.salesforce.tests.LoginInvalidTest@13518f37] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:com.salesforce.tests.LoginInvalidTest@13518f37]" started-at="2026-02-10T22:45:59 IST" name="setUp" finished-at="2026-02-10T22:46:01 IST" duration-ms="1843" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=LoginInvalidTest.testForgotPasswordLink()[pri:7, instance:com.salesforce.tests.LoginInvalidTest@13518f37] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testForgotPasswordLink()[pri:7, instance:com.salesforce.tests.LoginInvalidTest@13518f37]" started-at="2026-02-10T22:46:01 IST" name="testForgotPasswordLink" finished-at="2026-02-10T22:46:02 IST" duration-ms="1226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForgotPasswordLink -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.salesforce.tests.LoginInvalidTest@13518f37]" started-at="2026-02-10T22:46:02 IST" name="tearDown" finished-at="2026-02-10T22:46:02 IST" duration-ms="139" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testForgotPasswordLink status=SUCCESS method=LoginInvalidTest.testForgotPasswordLink()[pri:7, instance:com.salesforce.tests.LoginInvalidTest@13518f37] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.salesforce.tests.LoginInvalidTest -->
+    </test> <!-- InvalidLoginTest -->
+    <test started-at="2026-02-10T22:46:03 IST" name="ValidLoginTest" finished-at="2026-02-10T22:46:08 IST" duration-ms="4882">
+      <class name="com.salesforce.tests.LoginValidTest">
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:com.salesforce.tests.LoginValidTest@708400f6]" started-at="2026-02-10T22:46:03 IST" name="setUp" finished-at="2026-02-10T22:46:05 IST" duration-ms="1893" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=LoginValidTest.testValidLoginWithRememberMe()[pri:1, instance:com.salesforce.tests.LoginValidTest@708400f6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.salesforce.tests.LoginValidTest@708400f6]" started-at="2026-02-10T22:46:03 IST" name="beforeTest" finished-at="2026-02-10T22:46:03 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="testValidLoginWithRememberMe()[pri:1, instance:com.salesforce.tests.LoginValidTest@708400f6]" started-at="2026-02-10T22:46:05 IST" name="testValidLoginWithRememberMe" finished-at="2026-02-10T22:46:05 IST" duration-ms="3" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping test: Update global.properties with real Salesforce credentials (Base64 encoded) to run valid login tests]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping test: Update global.properties with real Salesforce credentials (Base64 encoded) to run valid login tests
+at com.salesforce.tests.LoginValidTest.testValidLoginWithRememberMe(LoginValidTest.java:22)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidLoginWithRememberMe -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.salesforce.tests.LoginValidTest@708400f6]" started-at="2026-02-10T22:46:05 IST" name="tearDown" finished-at="2026-02-10T22:46:05 IST" duration-ms="166" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testValidLoginWithRememberMe status=SKIP method=LoginValidTest.testValidLoginWithRememberMe()[pri:1, instance:com.salesforce.tests.LoginValidTest@708400f6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:com.salesforce.tests.LoginValidTest@708400f6]" started-at="2026-02-10T22:46:05 IST" name="setUp" finished-at="2026-02-10T22:46:07 IST" duration-ms="2092" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=LoginValidTest.testValidLoginWithoutRememberMe()[pri:2, instance:com.salesforce.tests.LoginValidTest@708400f6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testValidLoginWithoutRememberMe()[pri:2, instance:com.salesforce.tests.LoginValidTest@708400f6]" started-at="2026-02-10T22:46:07 IST" name="testValidLoginWithoutRememberMe" finished-at="2026-02-10T22:46:07 IST" duration-ms="2" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping test: Update global.properties with real Salesforce credentials (Base64 encoded) to run valid login tests]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping test: Update global.properties with real Salesforce credentials (Base64 encoded) to run valid login tests
+at com.salesforce.tests.LoginValidTest.testValidLoginWithoutRememberMe(LoginValidTest.java:35)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidLoginWithoutRememberMe -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.salesforce.tests.LoginValidTest@708400f6]" started-at="2026-02-10T22:46:07 IST" name="tearDown" finished-at="2026-02-10T22:46:08 IST" duration-ms="172" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testValidLoginWithoutRememberMe status=SKIP method=LoginValidTest.testValidLoginWithoutRememberMe()[pri:2, instance:com.salesforce.tests.LoginValidTest@708400f6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.salesforce.tests.LoginValidTest -->
+    </test> <!-- ValidLoginTest -->
+  </suite> <!-- SalesforceLoginSuite -->
+</testng-results>
